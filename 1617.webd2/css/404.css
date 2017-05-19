@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: rgba(26,35,126 ,1) url('../assets/images/wallpaperr.jpg') no-repeat center center fixed;
+  background-size: cover;
+
+  color: rgba(232,234,246 ,1);
+}
+
+.intro {
+  width: 100%;
+  padding: 1rem;
+  margin-top: 2rem;
+
+
+  background-color: rgb(184, 150, 151);
+  color: rgba(0,0,0,0.5);
+}
+
+a {
+  color: rgba(0,0,0,0.5);
+}
+a:hover:not(.active) {
+    background-color: rgb(184, 150, 151);
+    color: rgb(84, 50, 51);
+}

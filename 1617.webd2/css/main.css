@@ -1,0 +1,372 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  
+  height: 100vh;
+  overflow: auto;
+  background: rgb(220, 220, 220) url('../assets/images/wallpaperr.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: rgba(232,234,246 ,1);
+}
+
+/** header**/
+.header {
+    background-color:rgba(31, 31, 33, 0.8);
+    width: 100%;
+    height: 75px;
+    margin: 0px;
+    border-bottom: 1px solid rgb(160, 160, 160); 
+    }
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    margin-right: 20px;
+    padding: 0;
+    overflow: hidden;
+    width: 26%;
+    float: right;
+    height: 74px;
+}
+
+li {
+    float: left;
+    width: 33.33%;
+}
+
+li a {
+    display: block;
+    color: rgb(244, 230, 231);
+    text-align: center;
+    padding: 30px 16px;
+    text-decoration: none;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 25px;
+    bottom: 0px;
+}
+
+li a:hover:not(.active) {
+    background-color: rgb(184, 150, 151);
+
+}
+
+
+
+.header img {
+    float: left;
+}
+
+
+/** footer **/
+.footer {
+  
+  position: relative;
+  padding: 1rem;
+  background-color: rgba(31, 31, 33, 0.8);
+  text-align: right;
+  color: white;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 15px;
+}
+.footer a {
+    padding-right: 10px;
+    float: left;
+     bottom: 20px;
+} 
+
+
+/** scrollbar **/
+::-webkit-scrollbar {
+    width: 13px;
+    background-color: rgba(31, 31, 33, 0.8);
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+    background: rgb(184, 150, 151);
+}
+
+
+
+
+/** OVER ONS **/
+
+.kaart {
+    margin-top: 20px;
+    padding: 0;
+    overflow: hidden;
+    margin-left: auto ;
+    margin-right: auto ;
+}
+
+.kaart, h2 {
+    text-align: center;
+    color: rgba(244, 230, 231, 0.8);
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 30px;
+}
+
+
+
+
+/** personen **/
+.grid__column-4 { 
+    border-bottom: 2px solid rgb(160, 160, 160); 
+    color: rgb(160, 160, 160);
+    text-align: center;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    background-color: rgba(0,0,0,0.5);
+    border-radius:2px;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+.grid__column-4, p {
+    text-align: left;
+}
+
+.grid__container {
+    margin-top: 100px;
+}
+
+.grid__column-12 {
+    border-bottom: 2px solid rgb(160, 160, 160); 
+    color: rgb(160, 160, 160);
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 17px;
+    background-color: rgba(0,0,0,0.5);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+
+/**PORTFOLIO**/
+.grid__column-3 {
+    
+    color: rgb(160, 160, 160);
+    text-align: center;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.grid__container {
+    margin-top: 60px;
+}
+
+.grid__row, h2 {
+    color: rgb(160, 160, 160);
+    text-align: center;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 30px;
+}
+
+h5 {
+    color: rgb(180, 160, 160);
+    text-align: center;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 20px;
+    margin-top:  -30px;
+}
+
+a:hover:not(.active) {
+    background-color: rgb(184, 150, 151);
+}
+
+
+
+/**** PORTFOLIO DETAILS ****/
+.grid__column-6 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+h1 {
+     color: rgb(160, 160, 160);
+    text-align: left;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 30px;
+}
+
+h3 {
+     color: rgb(160, 160, 160);
+    text-align: left;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 20px;
+}
+button {
+    background-color: rgba(31, 31, 33, 0.8);
+    color: rgb(160, 160, 160);
+    text-align: left;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 15px;
+    border: 1px solid rgb(160, 160, 160); 
+}
+button:hover:not(.active) {
+    background-color: rgb(184, 150, 151);
+    color: rgba(0,0,0,0.5)
+}
+
+
+
+/***contact **/
+.grid__column-6 p {
+    font-size: 17px;
+}
+#uren {
+    text-align: left;
+}
+#adres {
+    text-align: left;
+}
+
+.verzenden {
+    font-size: 20px;
+    height:40px;
+    
+}
+
+#form {
+    margin-top: 70px;
+}
+#name {
+   height: 20px;
+}
+
+#email {
+    height: 20px;
+}
+#ques {
+    height: 150px;
+}
+
+input{
+    float:left;
+}
+
+#work {
+    margin-top: 27px;
+}
+
+.bedankt {
+    color: rgb(184, 50, 151);
+}
+
+
+.hero {
+  background: url('../assets/images/blurry8.png') no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;;
+  height:  500px;
+  position: relative;
+  margin-bottom: 50px;
+  margin-top: 10px;
+}
+
+.hero__text { 
+  font-weight: 400;
+  font-size: 1.2rem;
+  position:  absolute;
+  color: rgb(84, 50, 51);
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform:  translate(-50%,-50%);
+}
+
+.hero__title { 
+  margin: 0;
+  font-size: 3rem;
+  font-weight: 300;
+  color: rgba(0,0,0,0.5)
+}
+
+.hero__button {
+  display: inline-block;
+  padding: 12px 20px;
+  background:  rgba(0,0,0,0.5);
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgb(160, 160, 160);
+  margin-top: 20px;
+}
+
+.hero__button:hover {
+  color: rgba(0,0,0,0.5);
+  background: rgb(160, 160, 160)
+}
+
+#phero {
+    text-align: center;
+}
+
+
+
+/**index **/
+
+#eerste {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+
+    color: rgb(160, 160, 160);
+    text-align: center;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    background-color: rgba(0,0,0,0.5);
+
+display: block;
+}
+
+#eerste, h2 {
+    text-align: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgb(184, 150, 151);
+  border-radius: 50%;
+}
+
+#eerste:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: rgba(0,0,0,0.5);
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+
+#eerste {
+    margin-left: 13.5%;
+}
+
